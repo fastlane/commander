@@ -11,7 +11,7 @@ To ship a new release, just do the following
 
 - Increment the version number in `version.rb`
 - Run `bundle update && rake install`
-- Run `gem push ./pkg/....pkg`
+- Run `gem push pkg/commander-fastlane-[version].gem`
 
 💥
 
