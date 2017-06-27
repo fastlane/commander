@@ -1,6 +1,20 @@
 [<img src="https://secure.travis-ci.org/commander-rb/commander.svg?branch=master" alt="Build Status" />](http://travis-ci.org/commander-rb/commander)
 [![Inline docs](http://inch-ci.org/github/commander-rb/commander.svg)](http://inch-ci.org/github/commander-rb/commander)
 
+# Note: This is a fork
+
+Find the original repo on [commander-rb/commander](https://github.com/commander-rb/commander).
+
+This fork shows the available options for the default action, which is heavily used in fastlane.
+
+To ship a new release, just do the following
+
+- Increment the version number in `version.rb`
+- Run `bundle update && rake install`
+- Run `gem push ./pkg/....pkg`
+
+💥
+
 # Commander
 
 The complete solution for Ruby command-line executables.
